@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  min-height: 100vh;
+  color: black;
+  background: #d7be69;
+}
+
+.title {
+  text-align: center;
+  margin:2rem;
+}
+.App {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-size: 2rem;
+}
+
+header {
+  height: 10vh;
+  color: #d7be69;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav {
+  width: 50%;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menuItem {
+  margin: 0 1rem;
+}
+.menuItem:hover {
+  cursor: pointer;
+}
+
+.main {
+  margin: 2rem 0;
+  min-height: 80vh;
+}
+
+.propertyList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cardShape {
+  margin: 1rem;
+  background: rgba(0, 0, 0, 0.1);
+  width: 40rem;
+}
+
+.propertyCard {
+  display: flex;
+  flex-direction: column;
+
+  margin: 1rem;
+}
+
+.propDetails {
+  padding: 2rem;
+  display: flex;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  width: 50%;
+}
+
+.img {
+  width: 100%;
+}
+
+.about{
+  padding:4rem;
+  text-align: justify;
+}
+
+
+
+footer {
+  height: 10vh;
+}
+
+.profilePic {
+  width: 15rem;
+  height: 15rem;
+  background-repeat: no-repeat;
+  background: url('./assets/just.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.contact {
+ line-height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+}
